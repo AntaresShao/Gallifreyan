@@ -6,7 +6,7 @@ const scrollerObj = new Scroller(function(left, top, zoom) {
     locking: false,
     bouncing: false,
     animating: false,
-    minZoom: 1,
+    minZoom: 0.6,
     maxZoom: 10
 });
 
